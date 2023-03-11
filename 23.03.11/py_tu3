@@ -1,0 +1,26 @@
+import turtle as t
+t.speed(0)
+
+def sad():
+    t.setheading(0)
+    t.forward(100)
+def sda():
+    t.setheading(270)
+    t.forward(100)
+def dsa():
+    t.setheading(90)
+    t.forward(100)
+def asd():
+    t.setheading(180)
+    t.forward(100)
+
+   
+def main():
+    t.listen()
+
+    t.onkeypress(sad,"Right")
+    t.onkeypress(sda,"Down")
+    t.onkeypress(dsa,"Up")
+    t.onkeypress(asd,"Left")
+
+main()
