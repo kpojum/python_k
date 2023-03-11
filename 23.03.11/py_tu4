@@ -1,0 +1,33 @@
+import turtle as t
+t.speed(0)
+
+def sad():
+    t.setheading(60)
+    t.forward(100)
+    t.setheading(300)
+    t.forward(100)
+    t.setheading(180)
+    t.forward(100)
+   
+def sda():
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+def dsa():
+    t.circle(100)
+   
+def main():
+    t.listen()
+
+    t.onkeypress(sad,"t")
+    t.onkeypress(sda,"s")
+    t.onkeypress(dsa,"c")
+
+main()
+
+                
