@@ -1,0 +1,14 @@
+import turtle as t
+
+
+def wdf():
+    t.fillcolor("red")
+    t.begin_fill()
+    t.circle(100)
+    t.end_fill()
+def main():
+    t.listen()
+
+    t.onkeypress(wdf,"c")
+
+main()
