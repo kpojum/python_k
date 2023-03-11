@@ -1,0 +1,12 @@
+import turtle as t
+
+
+def wdf():
+
+    t.forward(100)
+def main():
+    t.listen()
+
+    t.onkeypress(wdf,"Right")
+
+main()
